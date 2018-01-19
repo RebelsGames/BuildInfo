@@ -292,3 +292,4 @@ Ignored/
 
 #Rider files
 \.idea/*
+*.iml
