@@ -289,3 +289,6 @@ Models/*.xml
 
 Ignored/
 *.txt
+
+#Rider files
+\.idea/*
