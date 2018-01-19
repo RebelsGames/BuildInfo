@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildInfo", "BuildInfo.csproj", "{30AE1DFB-E567-40BC-8C6E-E2CC1185E0D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebels BuildInfo", "Rebels BuildInfo.csproj", "{30AE1DFB-E567-40BC-8C6E-E2CC1185E0D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

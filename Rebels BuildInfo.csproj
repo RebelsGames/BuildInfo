@@ -51,19 +51,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sandbox.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\Sandbox.Common.dll</HintPath>
+      <HintPath>..\SpaceEngineers\Sandbox.Common.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.Game, Version=0.1.6592.32930, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\Sandbox.Game.dll</HintPath>
+      <HintPath>..\SpaceEngineers\Sandbox.Game.dll</HintPath>
     </Reference>
     <Reference Include="Sandbox.Graphics, Version=0.1.6592.32912, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\Sandbox.Graphics.dll</HintPath>
+      <HintPath>..\SpaceEngineers\Sandbox.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="SpaceEngineers.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\SpaceEngineers.Game.dll</HintPath>
+      <HintPath>..\SpaceEngineers\SpaceEngineers.Game.dll</HintPath>
     </Reference>
     <Reference Include="SpaceEngineers.ObjectBuilders, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\SpaceEngineers.ObjectBuilders.dll</HintPath>
+      <HintPath>..\SpaceEngineers\SpaceEngineers.ObjectBuilders.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -77,76 +77,30 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="SpaceEngineers.Game">
-      <HintPath>C:\Steam\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.Game.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="SpaceEngineers.ObjectBuilders">
-      <HintPath>C:\Steam\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.ObjectBuilders.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sandbox.Common">
-      <HintPath>C:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sandbox.Game">
-      <HintPath>C:\Steam\SteamApps\common\SpaceEngineers\Bin64\Sandbox.Game.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Sandbox.Graphics">
-      <HintPath>C:\Steam\steamapps\common\SpaceEngineers\Bin64\Sandbox.Graphics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="VRage">
-      <HintPath>C:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="VRage, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\VRage.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Game">
-      <HintPath>C:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Game.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="VRage.Game, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\VRage.Game.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Input">
-      <HintPath>C:\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.Input.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\SpaceEngineers\VRage.Game.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Input, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\VRage.Input.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Library">
-      <HintPath>C:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Library.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\SpaceEngineers\VRage.Input.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\VRage.Library.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Math">
-      <HintPath>C:\Steam\SteamApps\common\SpaceEngineers\Bin64\VRage.Math.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\SpaceEngineers\VRage.Library.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Math, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\VRage.Math.dll</HintPath>
-    </Reference>
-    <Reference Include="VRage.Render">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Steam\steamapps\common\SpaceEngineers\Bin64\VRage.Render.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\SpaceEngineers\VRage.Math.dll</HintPath>
     </Reference>
     <Reference Include="VRage.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\..\..\..\SpaceEngineers\VRage.Render.dll</HintPath>
+      <HintPath>..\SpaceEngineers\VRage.Render.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BuildInfo.cs" />
-    <Compile Include="HUDTextAPI.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="LeakInfoComponent.cs" />
-    <Compile Include="Settings.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\BuildInfo.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\HUDTextAPI.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\Log.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\LeakInfoComponent.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\Settings.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\#.cs" />
+    <Compile Include="Data\Scripts\BuildInfo\stuff.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
