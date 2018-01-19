@@ -2,7 +2,7 @@
 
 for %%a in (.) do set currentfolder=%%~na
 
-cd "..\SpaceEngineers\"
+cd "..\SpaceEngineers\Bin64\"
 
 if exist "bin" rd /q /s "bin"
 

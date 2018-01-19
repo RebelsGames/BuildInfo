@@ -1,7 +1,7 @@
 :: This script creates a symlink to the SpaceEngineers to account for different installation directories on different systems.
 
 @echo off
-set /p path="Please enter the folder location of your SpaceEngineers.exe (in Bin64 folder): "
+set /p path="Please enter the location of your SpaceEngineers game directory (Example: C:\Program Files (x86)\Steam\steamapps\common\SpaceEngineers)"
 cd %~dp0
 cd .
 

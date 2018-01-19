@@ -2,7 +2,7 @@
 
 for %%a in (.) do set currentfolder=%%~na
 
-cd "..\SpaceEngineers\"
+cd "..\SpaceEngineers\Bin64\"
 
 ".\SEWorkshopTool.exe" --upload --dry-run --compile --mods "%currentfolder%" --exclude .csproj .sln .user .gitignore .bat
 
